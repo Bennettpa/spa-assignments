@@ -45,8 +45,6 @@
 .body {
   display: flex;
   height: 86%;
-  margin: 0;
-  padding: 0;
 }
 
 .footer {
@@ -56,8 +54,6 @@
   background-color: grey;
   align-items: center;
   justify-content: center;
-  margin: 0;
-  padding: 0;
 }
 
 .right {
