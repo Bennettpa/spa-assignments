@@ -8,7 +8,9 @@
   flex-flow: row wrap;
   height: 100vh;
 }
-
+.text {
+  font-size: medium;
+}
 .header, .footer, .body, .left, .right, .center {
   flex: 1 100%;
   opacity: 0.87;
@@ -27,6 +29,7 @@
   background-color: pink;
   align-items: center;
   justify-content: center;
+  flex-flow: row nowrap;
 }
 
 .body {
@@ -46,6 +49,9 @@
 .right {
   display: flex;
   background-color: blue;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .center {
@@ -71,4 +77,7 @@
 .left {
   display: flex;
   background-color: red;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
 }
