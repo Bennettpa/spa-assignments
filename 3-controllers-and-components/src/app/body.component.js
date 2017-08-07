@@ -10,7 +10,7 @@ const controller =
     }
 
     get amount () {
-      return this.service.amount
+      return this.service.config.scale
     }
 
     click () {

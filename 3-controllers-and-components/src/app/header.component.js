@@ -10,7 +10,7 @@ const controller =
     }
 
     get total () {
-      return this.service.total
+      return this.service.config.total
     }
   }
 

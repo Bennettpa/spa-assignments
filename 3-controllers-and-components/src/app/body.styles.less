@@ -1,11 +1,34 @@
 @import "~bootstrap/less/bootstrap";
 
 .ft-body {
-  .make-row();
-  .ft-btn {
-    .btn;
-    .btn-primary;
-    .center-block();
+  flex: 1 100%;
+  opacity: 0.87;
+  text-align: center;
+  display: flex;
+  height: 86%;
+  .center {
+	  flex: 1 100%;
+	  opacity: 0.87;
+	  text-align: center;
+	  order: 2;
+	  display: flex;
+	  min-width: 960px;
+	  max-width: 960px;
+	  background-color: green;
+	  align-items: center;
+	  justify-content: center;
+  }
+  .footer {
+	  flex: 1 100%;
+	  opacity: 0.87;
+	  text-align: center;
+	  order: 4;
+	  display: flex;
+	  height: 7%;
+	  font-size: small;
+	  background-color: grey;
+	  align-items: center;
+	  justify-content: center;
   }
 }
 
